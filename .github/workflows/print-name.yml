@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:  # <-- should be under 'on'
 
 jobs:
   print:
@@ -14,4 +15,3 @@ jobs:
 
       - name: Print your name
         run: echo "Hello from GitHub Actions!"
-
