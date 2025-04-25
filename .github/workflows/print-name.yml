@@ -3,8 +3,8 @@ name: print-name
 on:
   push:
     branches:
-      - main
-  workflow_dispatch:  # <-- should be under 'on'
+      - master
+  workflow_dispatch:
 
 jobs:
   print:
